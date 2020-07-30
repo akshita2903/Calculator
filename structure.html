@@ -1,0 +1,65 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="functions.js" async defer></script>
+        
+        <table border="1">
+            <tr>
+               
+            </tr>
+        <tr>
+            <td colspan="3"><input type="text" id="cal"/></td>
+            <td><input type="button" value="clr" onclick="clr()"/></td>
+            <td><input type="button" value="del" onclick="del()"/></td>
+        </tr>
+        <tr>
+            <td ><input type="button" value="1" onclick="display(value)"/></td>
+            <td ><input type="button" value="2" onclick="display(value)"/></td>
+            <td ><input type="button" value="3" onclick="display(value)"/></td>
+            <td ><input type="button" value="+" onclick="display(value)"/></td>
+            <td ><input type="button" value="^" onclick="display(value)"/></td>
+
+        </tr>
+        <tr>
+            <td ><input type="button" value="4" onclick="display(value)"/></td>
+            <td ><input type="button" value="5" onclick="display(value)"/></td>
+            <td ><input type="button" value="6" onclick="display(value)"/></td>
+            <td ><input type="button" value="-" onclick="display(value)"/></td>
+            <td ><input type="button" value="%" onclick="display(value)"/></td>
+
+        </tr>
+        <tr>
+            <td ><input type="button" value="7" onclick="display(value)"/></td>
+            <td ><input type="button" value="8" onclick="display(value)"/></td>
+            <td ><input type="button" value="9" onclick="display(value)"/></td>
+            <td ><input type="button" value="*" onclick="display(value)"/></td>
+            <td ><input type="button" value="|" onclick="display(value)"/></td>
+
+        </tr>
+        <tr>
+            <td ><input type="button" value="0" onclick="display(value)"/></td>
+            <td ><input type="button" value="." onclick="display(value)"/></td>
+            <td ><input type="button" value="=" onclick="solve(value)"/></td>
+            <td ><input type="button" value="/" onclick="display(value)"/></td>
+            <td ><input type="button" value="&" onclick="display(value)"/></td>
+
+        </tr>
+    </table>
+        </body>
+    </body>
+</html>

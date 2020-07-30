@@ -1,0 +1,30 @@
+.title{
+    background-color:violet;
+color: black;
+text-size-adjust: bold;
+text-align: center;
+border:grey 2px;
+width:210px;
+padding-left: 2%;
+font-size: bold;
+font-size: x-large;
+
+
+}
+input[type="text"]{
+background-color:grey;
+width:100%;
+border:black 2px ;
+font-weight: bold;
+font-size:large;
+}
+input[type="button"] 
+         { 
+         background-color:red; 
+         text-size-adjust: bold;
+         color: black; 
+         border: solid black 2px; 
+         width:100% ;
+         font-weight: bold;
+         font-size: larger;
+         } 
